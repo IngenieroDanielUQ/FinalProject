@@ -74,22 +74,22 @@ while True:
         teclado.press(Keycode.CONTROL, Keycode.S)  # CTRL + S
         time.sleep(0.1)
         teclado.release(Keycode.CONTROL, Keycode.S)
-    if boton2.value:
+    elif boton2.value:
         print("Botón 2 - Copiar")
         teclado.press(Keycode.CONTROL, Keycode.C)  # CTRL + C
         time.sleep(0.1)
         teclado.release(Keycode.CONTROL, Keycode.C)
-    if boton3.value:
+    elif boton3.value:
         print("Botón 3 - Pegar")
         teclado.press(Keycode.CONTROL, Keycode.V)  # CTRL + V
         time.sleep(0.1)
         teclado.release(Keycode.CONTROL, Keycode.V)
-    if boton4.value:
+    elif boton4.value:
         print("Botón 4 - Seleccionar todo")
         teclado.press(Keycode.CONTROL, Keycode.A)  # CTRL + A
         time.sleep(0.1)
         teclado.release(Keycode.CONTROL, Keycode.A)
-    if boton5.value:
+    elif boton5.value:
         print("Botón 5 - Deshacer")
         teclado.press(Keycode.CONTROL, Keycode.Z)  # CTRL + Z
         time.sleep(0.1)
